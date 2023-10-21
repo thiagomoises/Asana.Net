@@ -44,7 +44,7 @@ Exists 2 way to instance a AsanaApiClient. Using factory and using Dependency In
 
 ### Factory
 
-``` c# 
+```cs 
 IAsanaApiClient client = AsanaApiClientFactory.Create("<your api key>");
 ```
 
@@ -54,25 +54,25 @@ IAsanaApiClient client = AsanaApiClientFactory.Create("<your api key>");
 
 `appSettings.json`
 
-``` json
+```json
 {
     "apiKey": "<your api key>"
 }
 ```
 
-``` c#
+```cs
 services.AddAsanaApiClient(Configuration);
 ```
 
 #### Setting apiKey manualy
 
-``` c# 
+```cs
 services.AddAsanaApiClient(options=> options.ApiKey = "<your api key>");
 ```
 
 or 
 
-``` c#
+```cs
 AsanaApiOptions options = new AsanaApiOptions { ApiKey = "<your api key>" };
 services.AddAsanaApiClient(options);
 ```
