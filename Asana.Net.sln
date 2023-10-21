@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1688E809-D98F-4B7D-91B8-41522606706D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asana.Net", "src\Asana.Net\Asana.Net.csproj", "{347E071D-3E24-4019-A5B4-CF7034375E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asana.Net.DependencyInjection", "src\Asana.Net.DependencyInjection\Asana.Net.DependencyInjection.csproj", "{E8A164DC-1580-492C-8549-743E6E9AEF31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3625ED3B-39C6-4C89-AF5E-F357E1820B40}"
+	ProjectSection(SolutionItems) = preProject
+		icon.png = icon.png
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{347E071D-3E24-4019-A5B4-CF7034375E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347E071D-3E24-4019-A5B4-CF7034375E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347E071D-3E24-4019-A5B4-CF7034375E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347E071D-3E24-4019-A5B4-CF7034375E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8A164DC-1580-492C-8549-743E6E9AEF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A164DC-1580-492C-8549-743E6E9AEF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A164DC-1580-492C-8549-743E6E9AEF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A164DC-1580-492C-8549-743E6E9AEF31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{347E071D-3E24-4019-A5B4-CF7034375E00} = {1688E809-D98F-4B7D-91B8-41522606706D}
+		{E8A164DC-1580-492C-8549-743E6E9AEF31} = {1688E809-D98F-4B7D-91B8-41522606706D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DC7500-2485-4D45-B4B2-2694F61BDFE3}
+	EndGlobalSection
+EndGlobal
